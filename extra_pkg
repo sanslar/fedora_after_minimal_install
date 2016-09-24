@@ -136,6 +136,7 @@ case $TARGET in
 		       ibus-hangul \
 		       network-manager-applet \
 		       imsettings-mate \
+		       mate-themes \
 		       mate-desktop \
 		       gtk2-engines \
 		       metacity \
