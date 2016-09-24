@@ -2,6 +2,7 @@ CMD="sudo dnf -y install"
 
 # RPMFUSION
 echo "Enable rpmfusion..."
+${CMD} redhat-lsb-core
 if [ `rpm -qv rpmfusion-free-release rpmfusion-nonfree-release | wc -l` -ne 2 ]
 then
 	${CMD} \
