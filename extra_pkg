@@ -126,7 +126,8 @@ case $TARGET in
 		       gwenview \
 		       ark \
 		       okular \
-		       apper
+		       apper \
+		       xdg-user-dirs
 		;;
 	3|mate)
 		echo "Install MATE Desktop Environment..."
@@ -147,7 +148,8 @@ case $TARGET in
 		       eom \
 		       engrampa \
 		       mate-document-viewer \
-		       yumex-dnf
+		       yumex-dnf \
+		       xdg-user-dirs-gtk
 	;;
 	4|xfce)
 		echo "Install XFCE Desktop Environment..."
@@ -168,7 +170,8 @@ case $TARGET in
 		       ristretto \
 		       xarchiver \
 		       evince \
-		       yumex-dnf
+		       yumex-dnf \
+		       xdg-user-dirs-gtk
 	;;
 	5|cinnamon)
 		echo "Install CINNAMON Desktop Environment..."
@@ -186,7 +189,8 @@ case $TARGET in
 		       gthumb \
 		       file-roller \
 		       evince \
-		       yumex-dnf
+		       yumex-dnf \
+		       xdg-user-dirs-gtk
 	;;
 	6|lxde)
 		echo "Install LXDE Desktop Environment..."
@@ -208,7 +212,8 @@ case $TARGET in
 		       gpicview \
 		       xarchiver \
 		       evince \
-		       yumex-dnf
+		       yumex-dnf \
+		       xdg-user-dirs-gtk
 	;;
 	7|lxqt)
 		echo "Install LXQT Desktop Environment..."
@@ -228,7 +233,8 @@ case $TARGET in
 		       gwenview \
 		       ark \
 		       okular \
-		       yumex-dnf
+		       yumex-dnf \
+		       xdg-user-dirs
 	;;
 	*)
 		echo "skip..."
