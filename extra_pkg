@@ -3,7 +3,7 @@ CMD="sudo dnf -y install"
 # RPMFUSION
 echo "Enable rpmfusion..."
 ${CMD} redhat-lsb-core
-if [ `rpm -qv rpmfusion-free-release rpmfusion-nonfree-release | wc -l` -ne 2 ]
+if [ `rpm -qv rpmfusion-free-release rpmfusion-nonfree-release | grep -v "is not " | wc -l` -ne 2 ]
 then
 	${CMD} \
 	http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-`lsb_release -r -s`.noarch.rpm \
