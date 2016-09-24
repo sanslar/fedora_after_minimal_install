@@ -162,6 +162,7 @@ case $TARGET in
 		       xfce4-settings \
 		       xfwm4 \
 		       xfdesktop \
+		       fedora-icon-theme \
 		       xfce4-terminal \
 		       mousepad \
 		       ristretto \
