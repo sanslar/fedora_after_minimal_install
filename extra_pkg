@@ -85,8 +85,6 @@ echo "Enabled Desktop Environment:
 	3.mate
 	4.xfce
 	5.cinnamon
-	6.lxde
-	7.lxqt"
 echo -n "select(10s): "
 read -t 10 TARGET
 if [ z${TARGET} == "z" ]
@@ -191,50 +189,6 @@ case $TARGET in
 		       evince \
 		       yumex-dnf \
 		       xdg-user-dirs-gtk
-	;;
-	6|lxde)
-		echo "Install LXDE Desktop Environment..."
-		${CMD} lightdm \
-		       NetworkManager-wifi \
-		       libevent \
-		       ibus-hangul \
-		       network-manager-applet \
-		       lxsession \
-		       lxsession-edit \
-		       lxdm \
-		       lxpanel \
-		       openbox \
-		       obconf \
-		       lxrandr \
-		       pcmanfm \
-		       lxterminal \
-		       leafpad \
-		       gpicview \
-		       xarchiver \
-		       evince \
-		       yumex-dnf \
-		       xdg-user-dirs-gtk
-	;;
-	7|lxqt)
-		echo "Install LXQT Desktop Environment..."
-		${CMD} lightdm \
-		       NetworkManager-wifi \
-		       libevent \
-		       ibus-hangul \
-		       network-manager-applet \
-		       lxqt-session \
-		       sddm \
-		       lxqt-panel \
-		       openbox \
-		       obconf \
-		       lxqt-config \
-		       konsole5 \
-		       kate \
-		       gwenview \
-		       ark \
-		       okular \
-		       yumex-dnf \
-		       xdg-user-dirs
 	;;
 	*)
 		echo "skip..."
