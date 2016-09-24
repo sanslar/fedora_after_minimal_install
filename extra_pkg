@@ -13,13 +13,8 @@ echo ""
 
 # X-Server
 echo "Install X-Server..."
-#sudo dnf -y groupinstall base-x
-${CMD} xorg-x11-server-Xorg \
-       xorg-x11-drv-evdev \
-       xorg-x11-drv-wacom \
-       xorg-x11-drv-intel \
-       xorg-x11-drv-synaptics \
-       mesa-dri-drivers \
+sudo dnf -y groupinstall base-x
+${CMD} mesa-dri-drivers \
        mesa-dri-drivers.i686 \
        mesa-filesystem \
        mesa-filesystem.i686 \
