@@ -121,6 +121,7 @@ case $TARGET in
 	2|kde)
 		echo "Install KDE Desktop Environment..."
 		${CMD} kdm \
+		       plasma-nm \
 		       NetworkManager-wifi \
 		       libevent \
 		       ibus-hangul \
