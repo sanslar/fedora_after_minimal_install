@@ -42,7 +42,7 @@ ${CMD} tar \
        unrar \
        arj \
        unace
-ehco ""
+echo ""
 
 # LIB CODEC
 echo "Install Codec..."
@@ -84,7 +84,7 @@ echo "Enabled Desktop Environment:
 	2.kde
 	3.mate
 	4.xfce
-	5.cinnamon
+	5.cinnamon"
 echo -n "select(10s): "
 read -t 10 TARGET
 if [ z${TARGET} == "z" ]
