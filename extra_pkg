@@ -63,6 +63,7 @@ ${CMD} gstreamer1-libav \
        gstreamer-plugins-good \
        gstreamer-plugins-ugly \
        gstreamer-rtsp \
+       alsa-plugins-pulseaudio \
        amrnb \
        amrwb \
        faac \
