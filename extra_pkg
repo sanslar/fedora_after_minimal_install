@@ -110,7 +110,8 @@ case $TARGET in
 		       evince \
 		       gnome-software \
 		       dconf-editor \
-		       xdg-user-dirs-gtk
+		       xdg-user-dirs-gtk \
+		       gvfs-mtp
 	;;
 	2|kde)
 		echo "Install KDE Desktop Environment..."
@@ -126,7 +127,8 @@ case $TARGET in
 		       ark \
 		       okular \
 		       apper \
-		       xdg-user-dirs
+		       xdg-user-dirs \
+		       gvfs-mtp
 		;;
 	3|mate)
 		echo "Install MATE Desktop Environment..."
@@ -148,7 +150,8 @@ case $TARGET in
 		       engrampa \
 		       mate-document-viewer \
 		       yumex-dnf \
-		       xdg-user-dirs-gtk
+		       xdg-user-dirs-gtk \
+		       gvfs-mtp
 	;;
 	4|xfce)
 		echo "Install XFCE Desktop Environment..."
@@ -170,7 +173,8 @@ case $TARGET in
 		       xarchiver \
 		       evince \
 		       yumex-dnf \
-		       xdg-user-dirs-gtk
+		       xdg-user-dirs-gtk \
+		       gvfs-mtp
 	;;
 	5|cinnamon)
 		echo "Install CINNAMON Desktop Environment..."
@@ -189,7 +193,8 @@ case $TARGET in
 		       file-roller \
 		       evince \
 		       yumex-dnf \
-		       xdg-user-dirs-gtk
+		       xdg-user-dirs-gtk \
+		       gvfs-mtp
 	;;
 	*)
 		echo "skip..."
