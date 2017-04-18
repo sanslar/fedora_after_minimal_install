@@ -100,13 +100,13 @@ case $TARGET in
 		       libevent \
 		       ibus-hangul \
 		       gnome-shell \
+		       gnome-shell-extension-common \
 		       nautilus \
 		       gnome-terminal \
 		       gnome-terminal-nautilus \
 		       gedit \
 		       eog \
 		       file-roller \
-		       file-roller-nautilus \
 		       evince \
 		       gnome-software \
 		       dconf-editor \
