@@ -222,6 +222,7 @@ ${CMD} vim \
        alltray \
        wireless-tools \
        net-tools \
+       tuned \
        bind-utils
 echo ""
 
