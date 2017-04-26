@@ -226,7 +226,11 @@ ${CMD} vim \
        wireless-tools \
        net-tools \
        tuned \
-       bind-utils
+       bind-utils \
+       gcc \
+       make \
+       cpp \
+       zip
 echo ""
 
 # GAME
