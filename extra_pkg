@@ -218,7 +218,7 @@ ${CMD} vim \
        gnome-gmail \
        vlc \
        freecad \
-       avidemux \
+       openshot \
        evince \
        firewall-config \
        PackageKit-command-not-found \
@@ -228,9 +228,12 @@ ${CMD} vim \
        tuned \
        bind-utils \
        gcc \
+       cpp \
        make \
        cpp \
-       zip
+       zip \
+       obs-studio \
+       playonlinux
 echo ""
 
 # GAME
