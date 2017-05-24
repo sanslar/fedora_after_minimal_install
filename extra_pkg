@@ -221,6 +221,7 @@ ${CMD} vim \
        openshot \
        evince \
        firewall-config \
+       PackageKit-gstreamer-plugin \
        PackageKit-command-not-found \
        alltray \
        wireless-tools \
