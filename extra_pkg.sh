@@ -226,6 +226,7 @@ ${CMD} vim \
        alltray \
        wireless-tools \
        net-tools \
+       drpm \
        tuned \
        bind-utils \
        gcc \
@@ -234,7 +235,10 @@ ${CMD} vim \
        cpp \
        zip \
        obs-studio \
-       playonlinux
+       playonlinux \
+       irqbalance \
+       pciutils \
+       lsof 
 echo ""
 
 # GAME
