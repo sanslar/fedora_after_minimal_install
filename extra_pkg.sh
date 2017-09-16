@@ -27,7 +27,7 @@ ${CMD} mesa-dri-drivers \
        mesa-libgbm \
        mesa-libgbm.i686 \
        mesa-libglapi \
-       mesa-libglapi.i686
+       mesa-libglapi.i686 \
        ibglvnd-opengl \
        libglvnd-core-devel \
        libglvnd-devel
