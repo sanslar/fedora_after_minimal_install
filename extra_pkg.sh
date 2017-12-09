@@ -36,6 +36,7 @@ echo ""
 # LIB ZIP
 echo "Install Archive Library..."
 ${CMD} tar \
+       zip \
        unzip \
        cabextract \
        bzip2 \
@@ -107,14 +108,12 @@ case $TARGET in
 		       nautilus \
 		       gnome-terminal \
 		       gnome-terminal-nautilus \
-		       gedit \
-		       eog \
 		       file-roller \
-		       evince \
 		       gnome-software \
-		       dconf-editor \
 		       xdg-user-dirs-gtk \
-		       gvfs-mtp
+		       gvfs-mtp \
+		       gvfs-smb \
+		       gvfs-fuse
 	;;
 	2|kde)
 		echo "Install KDE Desktop Environment..."
@@ -125,13 +124,12 @@ case $TARGET in
 		       ibus-hangul \
 		       plasma-desktop \
 		       dolphin \
-		       kate \
-		       gwenview \
 		       ark \
-		       okular \
 		       apper \
 		       xdg-user-dirs \
-		       gvfs-mtp
+		       gvfs-mtp \
+		       gvfs-smb \
+		       gvfs-fuse
 		;;
 	3|mate)
 		echo "Install MATE Desktop Environment..."
@@ -148,13 +146,12 @@ case $TARGET in
 		       marco \
 		       caja \
 		       mate-terminal \
-		       pluma \
-		       eom \
 		       engrampa \
-		       mate-document-viewer \
 		       yumex-dnf \
 		       xdg-user-dirs-gtk \
-		       gvfs-mtp
+		       gvfs-mtp \
+		       gvfs-smb \
+		       gvfs-fuse
 	;;
 	4|xfce)
 		echo "Install XFCE Desktop Environment..."
@@ -171,13 +168,12 @@ case $TARGET in
 		       xfdesktop \
 		       fedora-icon-theme \
 		       xfce4-terminal \
-		       mousepad \
-		       ristretto \
 		       xarchiver \
-		       evince \
 		       yumex-dnf \
 		       xdg-user-dirs-gtk \
-		       gvfs-mtp
+		       gvfs-mtp \
+		       gvfs-smb \
+		       gvfs-fuse
 	;;
 	5|cinnamon)
 		echo "Install CINNAMON Desktop Environment..."
@@ -191,13 +187,12 @@ case $TARGET in
 		       nemo \
 		       nemo-fileroller \
 		       gnome-terminal \
-		       gedit \
-		       gthumb \
 		       file-roller \
-		       evince \
 		       yumex-dnf \
 		       xdg-user-dirs-gtk \
-		       gvfs-mtp
+		       gvfs-mtp \
+		       gvfs-smb \
+		       gvfs-fuse
 	;;
 	*)
 		echo "skip..."
@@ -207,23 +202,12 @@ echo ""
 
 # APP
 echo "Install Application..."
-${CMD} vim \
-       firefox \
-       blender \
-       inkscape \
-       gimp \
-       mypaint \
-       audacity-freeworld \
-       shutter \
-       gnome-gmail \
-       vlc \
-       freecad \
-       openshot \
-       evince \
+${CMD} flatpak \
+       snapd \
+       vim \
        firewall-config \
        PackageKit-gstreamer-plugin \
        PackageKit-command-not-found \
-       alltray \
        wireless-tools \
        net-tools \
        drpm \
@@ -233,17 +217,9 @@ ${CMD} vim \
        cpp \
        make \
        cpp \
-       zip \
-       obs-studio \
-       playonlinux \
        irqbalance \
        pciutils \
-       lsof 
-echo ""
-
-# GAME
-echo "Install Game..."
-${CMD} steam 
+       lsof
 echo ""
 
 # BOOT GRAPHCAL
