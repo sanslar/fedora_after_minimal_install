@@ -114,6 +114,7 @@ case $TARGET in
 		       gvfs-mtp \
 		       gvfs-smb \
 		       gvfs-fuse
+		       sudo systemctl enable gdm
 	;;
 	2|kde)
 		echo "Install KDE Desktop Environment..."
@@ -130,6 +131,7 @@ case $TARGET in
 		       gvfs-mtp \
 		       gvfs-smb \
 		       gvfs-fuse
+		       sudo systemctl enable kdm
 		;;
 	3|mate)
 		echo "Install MATE Desktop Environment..."
@@ -152,6 +154,7 @@ case $TARGET in
 		       gvfs-mtp \
 		       gvfs-smb \
 		       gvfs-fuse
+		       sudo systemctl enable lightdm
 	;;
 	4|xfce)
 		echo "Install XFCE Desktop Environment..."
@@ -174,6 +177,7 @@ case $TARGET in
 		       gvfs-mtp \
 		       gvfs-smb \
 		       gvfs-fuse
+		       sudo systemctl enable lightdm
 	;;
 	5|cinnamon)
 		echo "Install CINNAMON Desktop Environment..."
@@ -193,6 +197,7 @@ case $TARGET in
 		       gvfs-mtp \
 		       gvfs-smb \
 		       gvfs-fuse
+		       sudo systemctl enable lightdm
 	;;
 	*)
 		echo "skip..."
