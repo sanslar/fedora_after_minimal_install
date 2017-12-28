@@ -221,7 +221,6 @@ ${CMD} flatpak \
        gcc \
        cpp \
        make \
-       cpp \
        irqbalance \
        pciutils \
        lsof
